@@ -38,7 +38,7 @@ body {
 }
 
 .seat {
-  background-color: #444451;
+  background-color: #cdcddf;
   height: 12px;
   width: 15px;
   margin: 3px;
@@ -47,11 +47,11 @@ body {
 }
 
 .seat.selected {
-  background-color: #6ff66f;
+  background-color: #fced1f;
 }
 
 .seat.occupied {
-  background-color: #fff;
+  background-color: rgb(30, 137, 224);
 }
 
 .seat:nth-of-type(2) {
@@ -111,5 +111,5 @@ p.text {
 }
 
 p.text span {
-  color: #6ff66f;
+  color: #fced1f;
 }
